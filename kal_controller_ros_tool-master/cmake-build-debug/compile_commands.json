@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"kal_controller_ros_tool\\\" -D_DEBUG -D_GLIBCXX_ASSERTIONS -I/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/devel/include -I/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src -isystem /home/kamran/programming/kal_test_ws/devel/.private/rosinterface_handler/include -isystem /home/kamran/programming/kal_test_ws/src/rosinterface_handler/include -isystem /opt/mrtros/include -isystem /opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/kamran/programming/kal_test_ws/devel/.private/ackermann_msgs/include  -g   -fopenmp -fdiagnostics-color=auto -Wno-ignored-attributes -Wno-int-in-bool-context -Wno-maybe-uninitialized -faligned-new -Wno-deprecated-copy -Werror=address -Werror=enum-compare -Werror=format -Werror=nonnull -Werror=return-type -Werror=sequence-point -Werror=strict-aliasing -Werror=switch -Werror=trigraphs -Werror=volatile-register-var -Werror=array-bounds=1 -Werror=openmp-simd -Werror=bool-compare -Werror=init-self -Werror=logical-not-parentheses -Werror=memset-transposed-args -Werror=nonnull-compare -Werror=sizeof-pointer-memaccess -Werror=tautological-compare -Werror=uninitialized -Werror=bool-operation -Werror=memset-elt-size -Werror=catch-value -Werror=missing-attributes -Werror=multistatement-macros -Werror=restrict -Werror=sizeof-pointer-div -Werror=misleading-indentation -Werror=pessimizing-move -march=sandybridge -std=gnu++17 -o CMakeFiles/kal_controller_ros_tool-controller-exec.dir/src/controller/controller_node.cpp.o -c /home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller_node.cpp",
+  "file": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller_node.cpp"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"kal_controller_ros_tool\\\" -D_DEBUG -D_GLIBCXX_ASSERTIONS -Dkal_controller_ros_tool_controller_nodelet_EXPORTS -I/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/devel/include -isystem /home/kamran/programming/kal_test_ws/devel/.private/rosinterface_handler/include -isystem /home/kamran/programming/kal_test_ws/src/rosinterface_handler/include -isystem /opt/mrtros/include -isystem /opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/kamran/programming/kal_test_ws/devel/.private/ackermann_msgs/include  -g -fPIC   -fopenmp -fdiagnostics-color=auto -Wno-ignored-attributes -Wno-int-in-bool-context -Wno-maybe-uninitialized -faligned-new -Wno-deprecated-copy -Werror=address -Werror=enum-compare -Werror=format -Werror=nonnull -Werror=return-type -Werror=sequence-point -Werror=strict-aliasing -Werror=switch -Werror=trigraphs -Werror=volatile-register-var -Werror=array-bounds=1 -Werror=openmp-simd -Werror=bool-compare -Werror=init-self -Werror=logical-not-parentheses -Werror=memset-transposed-args -Werror=nonnull-compare -Werror=sizeof-pointer-memaccess -Werror=tautological-compare -Werror=uninitialized -Werror=bool-operation -Werror=memset-elt-size -Werror=catch-value -Werror=missing-attributes -Werror=multistatement-macros -Werror=restrict -Werror=sizeof-pointer-div -Werror=misleading-indentation -Werror=pessimizing-move -march=sandybridge -std=gnu++17 -o CMakeFiles/kal_controller_ros_tool-controller-nodelet.dir/src/controller/controller.cpp.o -c /home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller.cpp",
+  "file": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller.cpp"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug",
+  "command": "/usr/lib/ccache/c++  -DDYNAMIC_RECONFIGURE_FOUND -DMESSAGE_FILTERS_FOUND -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"kal_controller_ros_tool\\\" -D_DEBUG -D_GLIBCXX_ASSERTIONS -Dkal_controller_ros_tool_controller_nodelet_EXPORTS -I/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/devel/include -isystem /home/kamran/programming/kal_test_ws/devel/.private/rosinterface_handler/include -isystem /home/kamran/programming/kal_test_ws/src/rosinterface_handler/include -isystem /opt/mrtros/include -isystem /opt/mrtros/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/kamran/programming/kal_test_ws/devel/.private/ackermann_msgs/include  -g -fPIC   -fopenmp -fdiagnostics-color=auto -Wno-ignored-attributes -Wno-int-in-bool-context -Wno-maybe-uninitialized -faligned-new -Wno-deprecated-copy -Werror=address -Werror=enum-compare -Werror=format -Werror=nonnull -Werror=return-type -Werror=sequence-point -Werror=strict-aliasing -Werror=switch -Werror=trigraphs -Werror=volatile-register-var -Werror=array-bounds=1 -Werror=openmp-simd -Werror=bool-compare -Werror=init-self -Werror=logical-not-parentheses -Werror=memset-transposed-args -Werror=nonnull-compare -Werror=sizeof-pointer-memaccess -Werror=tautological-compare -Werror=uninitialized -Werror=bool-operation -Werror=memset-elt-size -Werror=catch-value -Werror=missing-attributes -Werror=multistatement-macros -Werror=restrict -Werror=sizeof-pointer-div -Werror=misleading-indentation -Werror=pessimizing-move -march=sandybridge -std=gnu++17 -o CMakeFiles/kal_controller_ros_tool-controller-nodelet.dir/src/controller/controller_nodelet.cpp.o -c /home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller_nodelet.cpp",
+  "file": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/src/controller/controller_nodelet.cpp"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock/gtest",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/kamran/programming/kal_test_ws/src/kal_controller_ros_tool/cmake-build-debug/gtest/googlemock/gtest",
+  "command": "/usr/lib/ccache/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+}
+]

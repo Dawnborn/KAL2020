@@ -1,0 +1,6 @@
+<library path="lib/libdecision_making_nodelet">
+<class name="kal_decision_making_ros_tool/DecisionMakingNodelet"
+       type="kal_decision_making_ros_tool::DecisionMakingNodelet" base_class_type="nodelet::Nodelet">
+  <description></description>
+</class>
+</library>

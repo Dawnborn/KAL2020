@@ -1,0 +1,4 @@
+green
+no_pedestrian
+pedestrian
+red

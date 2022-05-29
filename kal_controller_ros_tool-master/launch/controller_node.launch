@@ -1,0 +1,23 @@
+<launch>
+
+  <arg name="config" default="$(find kal_controller_ros_tool)/launch/params/controller_parameters.yaml" />
+  <arg name="required" default="false"/>
+  <arg name="node_name" default="controller"/>
+  <arg name="control_topic"/>
+  <arg name="map_frame"/>
+  <arg name="vehicle_frame"/>
+  <arg name="path_topic"/>
+  <!-- this is just to be compatible with the nodelet version -->
+  <arg name="nodelet_manager_name" default="nodelet_manager_controller"/>
+  <arg name="start_nodelet_manager" default="true"/>
+
+
+  <node pkg="kal_controller_ros_tool" type="controller" name="$(arg node_name)" ns="/control" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+    <param name="/ackerman_publisher_topic" value="$(arg control_topic)" />
+    <param name="/map_frame" value="$(arg map_frame)" />
+    <param name="/vehicle_frame" value="$(arg vehicle_frame)" />
+    <param name="/path_subscriber_topic" value="$(arg path_topic)" />
+  </node>
+
+</launch>

@@ -1,0 +1,33 @@
+<package format="2">
+  <name>kal_trajectory_planner_ros_tool</name>
+  <version>0.0.0</version>
+  <description>Trajectory planner package for KAL pipeline.</description>
+
+  <license>MRT</license>
+  <maintainer email="danial.kamran@kit.edu">Danial Kamran</maintainer>
+  <author email="danial.kamran@kit.edu">Danial Kamran</author>
+  <url type="repository">https://gitlab.mrt.uni-karlsruhe.de/MRT/draft/kal_trajectory_planner_ros_tool</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <build_depend>rosinterface_handler</build_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <test_depend>gtest</test_depend>
+  <test_depend>rostest</test_depend>
+  <build_depend>roscpp</build_depend>
+  <depend>roslib</depend>
+  <depend>nodelet</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>message_filters</depend>
+  <depend>tf2_ros</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>eigen</depend>
+  <depend>eigen_conversions</depend>
+  <depend>kal_decision_making_ros_tool</depend>
+  
+  <export>
+    <nodelet plugin="${prefix}/nodelet_plugins.xml" /><!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

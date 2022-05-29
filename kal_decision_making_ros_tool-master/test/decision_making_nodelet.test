@@ -1,0 +1,7 @@
+<launch>
+    <test test-name="decision_making_nodelet_test" pkg="kal_decision_making_ros_tool" type="decision_making_nodelet-test" time-limit="60.0"/>
+    <include file="$(find kal_decision_making_ros_tool)/launch/decision_making_nodelet.launch">
+        <arg name="required" value="true"/>
+    </include>
+</launch>
+

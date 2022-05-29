@@ -1,0 +1,17 @@
+<launch>
+
+  <arg name="config" default="$(find kal_decision_making_ros_tool)/launch/params/decision_making_parameters.yaml" />
+  <arg name="required" default="false"/>
+  <arg name="launch_prefix" default=" " />
+  <arg name="node_name" default="decision_making"/>
+
+  <!-- this is just to be compatible with the nodelet version -->
+  <arg name="nodelet_manager_name" default="nodelet_manager_decision_making"/>
+  <arg name="start_nodelet_manager" default="true"/>
+
+
+  <node launch-prefix="$(arg launch_prefix)" pkg="kal_decision_making_ros_tool" type="decision_making" name="$(arg node_name)" ns="/decision_making" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+  </node>
+
+</launch>
