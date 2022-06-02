@@ -1,5 +1,7 @@
 # KAL2020
-Here to store our solution of KAL lab 2020 at KIT
+by Dominik, Leis, Junpeng
+
+Here is our solution of KAL lab 2020 at KIT.
 ## Task 1: Follow the Road
 Technical Solution: Stanley Controller & Optimization
 Final Implementation:
